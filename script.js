@@ -23,5 +23,11 @@ function firstNonRepeatedChar(str) {
 
   return null; // No non-repeated character found
 }
+// Test cases
+console.log(firstNonRepeatedChar('aabbcdd')); // 'c'
+console.log(firstNonRepeatedChar('aabbcc'));  // null
 const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
+
+
+
